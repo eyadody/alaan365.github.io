@@ -1,0 +1,263 @@
+* {
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+}
+
+body{
+    background-color: var(--primary-color);
+    overflow-x:hidden;
+}
+
+
+:root {
+    --primary-color: #c1c1c1;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #25262f;
+    --secondary-color: #c1c1c1;
+}
+
+header {
+    width: 400px;
+    height: 150px;
+    margin-top: 15px;
+    margin-right: 490px;
+    position: relative;
+    z-index: 999;
+}
+
+.logo img {
+    height: 200px;
+    width: 400px;
+}
+
+.logo p {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    color: rgba(22, 14, 114, 0.723);
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 305px;
+}
+
+.toggle {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    border-radius: 10%;
+    top: 0;
+}
+
+.moon-icon {
+    background-color: #b2b8c6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 500px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: var(--secondary-color);
+    width: 400px;
+    border-radius: 5%;
+    height: 350px;
+    position: absolute;
+    left: 460px;
+    top: 230px;
+}
+
+.inputs {
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.input-field{
+    position: relative;
+    padding-top: 40px;
+    direction: ltr;
+    border-radius: 5%;
+}
+
+.input-field .input{
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 35px;
+}
+
+.input-field .input::placeholder{
+    padding-right: 10px;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.input-field .icon {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.input-field .submit {
+    margin-top: -10px;
+    margin-left: 150px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 35px;
+    background-color: #ff4800;
+    width: 100px;
+}
+
+.input-field .submit:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#error {
+    position: absolute;
+    margin-right: 100px;
+    bottom: 85px;
+}
+
+#preloader{
+    background: var(--primary-color) url(../WhatsApp_Image_2023-04-13_at_2.27.57_AM-removebg-preview.png) no-repeat center center;
+    background-size: 500px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.youtube-fake-video{
+    display: none;
+}
+
+@media(max-width: 1281px){
+    .logo img{
+        position: absolute;
+        left: 50px;
+    }
+    .logo p{
+        right: -55px;
+        top: 45px;
+    }
+    .container{
+        left: 410px;
+    }
+}
+
+@media(max-width: 1230px){
+    .logo img{
+        left: 60px;
+    }
+
+    .logo p{
+        right: -62px;
+        top: 50px;
+    }
+}
+
+@media(max-width: 1215px){
+    .logo img{
+        left: 70px;
+    }
+    .logo p{
+        right: -70px;
+    }
+}
+
+@media(max-width: 1201px){
+    .logo img{
+        left: 100px;
+    }
+    .logo p{
+        right: -100px;
+    }
+}
+
+@media(max-width: 1171px){
+    .logo img{
+        left: 120px;
+    }
+    .logo p{
+        right: -120px;
+    }
+}
+
+@media(max-width: 1166px){
+    .logo img{
+        left: 140px;
+    }
+    .logo p{
+        right: -140px;
+    }
+}
+
+@media(max-width: 1153px){
+    .logo img{
+        left: 150px;
+    }
+    .logo p{
+        right: -150px;
+    }
+}
+
+@media(max-width: 1123px){
+    .container{
+        left: 365px;
+    }
+}
+
+@media(max-width: 1090px){
+    .container{
+        left: 320px;
+    }
+}
+
+@media(max-width: 1055px){
+    .container{
+        left: 300px;
+    }
+}
+
+@media(max-width: 1020px){
+    .container{
+        left: 270px;
+    }
+    .moon-icon{
+        right: 400px;
+    }
+}
+
+@media(max-width: 990px){
+    .container{
+        left: 220px;
+    }
+}
+
+@media(max-width: 950px){
+    .logo img{
+        left: 170px;
+    }
+    .logo p{
+        right: -170px;
+    }
+}
+
+@media(max-width: 910px){
+    .logo img{
+        left: 200px;
+    }
+    .logo p{
+        right: -200px;
+    }
+    .moon-icon{
+        right: 251px;
+    }
+}
+
+@media 
